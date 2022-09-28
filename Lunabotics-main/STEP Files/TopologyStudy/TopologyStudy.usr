@@ -1,0 +1,41 @@
+#PID -1Id 97
+#ErrMsgStr
+A total of 6980 elements and 2133 nodes were created.
+#ErrMsgEnd
+#PID 10824
+#ErrMsgId 391
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrMsgId 545542612
+#ErrMsgStr
+
+Error updating parameters:
+Cannot perform this operation for this case.
+
+#ErrMsgEnd
+#ErrMsgId 406
+#ErrProAddr 2 240 -1 0 -1 PTC_MP_VAL_IMP_COGY
+#ErrProAddr 2 -14 -1 0 -1 PTC_MP_VAL_IMP_COGY
+#ErrMsgId 545542612
+#ErrMsgStr
+
+Error updating parameters:
+Cannot perform this operation for this case.
+
+#ErrMsgEnd
+#ErrMsgId 406
+#ErrProAddr 2 240 -1 0 -1 PTC_MP_VAL_IMP_COGY
+#ErrProAddr 2 -14 -1 0 -1 PTC_MP_VAL_IMP_COGY
+#ErrMsgId 545616194
+#ErrMsgStr
+** Warning: Analysis did not converge during optimization
+            because max polynomial order of 6 was reached.
+
+#ErrMsgEnd
+#ErrMsgId 92

@@ -1,0 +1,16 @@
+[StartTime]
+ChassisFrame-Uniform Static Study.MFC=5s
+[SolverState]
+ChassisFrame-Uniform Static Study.MFC=2
+[MainFrame]
+ChassisFrame-Uniform Static Study.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+ChassisFrame-Uniform Static Study.MFC=No
+[SolverType]
+ChassisFrame-Uniform Static Study.MFC=Linear Analysis
+[StudyType]
+ChassisFrame-Uniform Static Study.MFC=0
+[StudyName]
+ChassisFrame-Uniform Static Study.MFC=Uniform Static Study
+[Solver]
+ChassisFrame-Uniform Static Study.MFC=Sparse

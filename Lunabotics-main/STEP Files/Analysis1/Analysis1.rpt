@@ -1,0 +1,261 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-70-46:spg
+Summary for Design Study "Analysis1"
+Thu Nov 18, 2021   20:45:05
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:           16
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   16
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+Excluded elements may be required near one or more
+loads due to concentrated stresses.No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: Inch lbm Second (Creo Parametric Default)
+
+   Length:          in
+   Mass:            lbm
+   Time:            sec
+   Temperature:     F
+
+   Model Type: Three Dimensional
+
+   Points:               2133
+   Edges:               10905
+   Faces:               15732
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:               6980
+
+   Elements:             6980
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "Analysis1":
+
+   Convergence Method: Multiple-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (20:45:07)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (20:45:07)
+            Total Number of Equations:    5628
+            Maximum Edge Order:              1
+         Solving Equations                       (20:45:07)
+         Post-Processing Solution                (20:45:07)
+         Calculating Disp and Stress Results     (20:45:07)
+         Checking Convergence                    (20:45:08)
+            Elements Not Converged:       6980
+            Edges Not Converged:         10905
+            Local Disp/Energy Index:    100.0%
+            Global RMS Stress Index:    100.0%
+         Resource Check                          (20:45:08)
+            Elapsed Time     (sec):       9.54
+            CPU Time         (sec):       2.86
+            Memory Usage      (kb):     736827
+            Wrk Dir Dsk Usage (kb):      55296
+
+   >> Pass  2 <<
+         Calculating Element Equations           (20:45:08)
+            Total Number of Equations:   36489
+            Maximum Edge Order:              2
+         Solving Equations                       (20:45:09)
+         Post-Processing Solution                (20:45:09)
+         Calculating Disp and Stress Results     (20:45:09)
+         Checking Convergence                    (20:45:10)
+            Elements Not Converged:       3885
+            Edges Not Converged:          4408
+            Local Disp/Energy Index:    100.0%
+            Global RMS Stress Index:     70.0%
+         Resource Check                          (20:45:11)
+            Elapsed Time     (sec):      11.90
+            CPU Time         (sec):       5.47
+            Memory Usage      (kb):     771259
+            Wrk Dir Dsk Usage (kb):      55296
+
+   >> Pass  3 <<
+         Calculating Element Equations           (20:45:11)
+            Total Number of Equations:  113400
+            Maximum Edge Order:              4
+         Solving Equations                       (20:45:11)
+         Post-Processing Solution                (20:45:12)
+         Calculating Disp and Stress Results     (20:45:13)
+         Checking Convergence                    (20:45:15)
+            Elements Not Converged:       1138
+            Edges Not Converged:             1
+            Local Disp/Energy Index:    100.0%
+            Global RMS Stress Index:     31.1%
+         Resource Check                          (20:45:15)
+            Elapsed Time     (sec):      16.12
+            CPU Time         (sec):      11.63
+            Memory Usage      (kb):     795768
+            Wrk Dir Dsk Usage (kb):     138240
+
+   >> Pass  4 <<
+         Calculating Element Equations           (20:45:15)
+            Total Number of Equations:  209748
+            Maximum Edge Order:              5
+         Solving Equations                       (20:45:16)
+         Post-Processing Solution                (20:45:19)
+         Calculating Disp and Stress Results     (20:45:20)
+         Checking Convergence                    (20:45:22)
+            Elements Not Converged:        321
+            Edges Not Converged:             0
+            Local Disp/Energy Index:     90.2%
+            Global RMS Stress Index:     37.8%
+         Resource Check                          (20:45:22)
+            Elapsed Time     (sec):      23.19
+            CPU Time         (sec):      30.47
+            Memory Usage      (kb):     841014
+            Wrk Dir Dsk Usage (kb):    1016832
+
+   >> Pass  5 <<
+         Calculating Element Equations           (20:45:22)
+            Total Number of Equations:  283350
+            Maximum Edge Order:              6
+         Solving Equations                       (20:45:24)
+         Post-Processing Solution                (20:45:28)
+         Calculating Disp and Stress Results     (20:45:30)
+         Checking Convergence                    (20:45:31)
+            Elements Not Converged:        102
+            Edges Not Converged:             0
+            Local Disp/Energy Index:     64.6%
+            Global RMS Stress Index:     32.9%
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         LoadSet1           3.54e+00       0.1% of  4.03e+03
+
+** Warning: Convergence was not obtained because the maximum
+            polynomial order of 6 was reached.
+
+         Resource Check                          (20:45:33)
+            Elapsed Time     (sec):      34.06
+            CPU Time         (sec):      60.83
+            Memory Usage      (kb):     884316
+            Wrk Dir Dsk Usage (kb):    1572864
+
+   The analysis did not converge to within 10% on
+   edge displacement, element strain energy,
+   and global RMS stress.
+
+   Total Mass of Model:  1.510705e+01
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:   2.24962e+02
+     Ixy: -3.49155e+00  Iyy:   1.12044e+03
+     Ixz:   2.70678e-03  Iyz: -8.87787e-05  Izz:   9.05544e+02
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+            1.12045e+03         9.05544e+02         2.24949e+02
+
+   WCS X: -3.89901e-03         3.97470e-06         9.99992e-01
+   WCS Y:   9.99992e-01         4.77709e-07         3.89901e-03
+   WCS Z: -4.62208e-07         1.00000e+00       -3.97654e-06
+
+   Center of Mass Location Relative to WCS Origin:
+                  (  4.62193e-01,   4.99926e-01,   8.75608e-06)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:   2.21187e+02
+     Ixy: -8.79475e-04  Iyy:   1.11721e+03
+     Ixz:   2.76792e-03  Iyz: -2.26492e-05  Izz:   8.98541e+02
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+            1.11721e+03         8.98541e+02         2.21187e+02
+
+   WCS X: -9.81533e-07         4.08636e-06         1.00000e+00
+   WCS Y:   1.00000e+00         1.03594e-07         9.81532e-07
+   WCS Z: -1.03590e-07         1.00000e+00       -4.08636e-06
+
+   Constraint Set: ConstraintSet1: 1-FRAME
+
+   Load Set: LoadSet1: 1-FRAME
+
+      Resultant Load on Model:
+         in global X direction:  2.450040e-12
+         in global Y direction: -8.000000e+01
+         in global Z direction: -1.152911e-12
+
+      Measures:
+
+           Name              Value      Convergence
+      --------------     -------------  -----------
+      max_beam_bending:    0.000000e+00      0.0%
+      max_beam_tensile:    0.000000e+00      0.0%
+      max_beam_torsion:    0.000000e+00      0.0%
+      max_beam_total:      0.000000e+00      0.0%
+      max_disp_mag:        5.677415e-07      0.3%
+      max_disp_x:        -7.170514e-08      8.7%
+      max_disp_y:        -5.677391e-07      0.3%
+      max_disp_z:        -3.683425e-08    100.0%
+      max_prin_mag*:     -4.027156e+03     32.0%
+      max_rot_mag:         0.000000e+00      0.0%
+      max_rot_x:           0.000000e+00      0.0%
+      max_rot_y:           0.000000e+00      0.0%
+      max_rot_z:           0.000000e+00      0.0%
+      max_stress_prin*:    1.072470e+03     35.8%
+      max_stress_vm*:      4.431849e+03     34.1%
+      max_stress_xx*:    -1.949686e+03     19.6%
+      max_stress_xy*:    -1.250666e+03     22.3%
+      max_stress_xz*:    -1.167487e+03     26.5%
+      max_stress_yy*:    -3.648930e+03     26.7%
+      max_stress_yz*:    -1.216239e+03     32.9%
+      max_stress_zz*:    -1.305205e+03     25.4%
+      min_stress_prin*:  -4.027156e+03     32.0%
+      strain_energy:       9.288738e-06      4.8%
+
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "Analysis1" Completed  (20:45:33)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 34.27     
+   Total CPU Time     (seconds): 61.05     
+   Maximum Memory Usage (kilobytes): 884316    
+   Working Directory Disk Usage (kilobytes): 1572864   
+
+   Results Directory Size (kilobytes):
+   92944 .\Analysis1
+
+------------------------------------------------------------
+Run Completed
+Thu Nov 18, 2021   20:45:33
+------------------------------------------------------------

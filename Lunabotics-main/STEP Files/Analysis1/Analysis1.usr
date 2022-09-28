@@ -1,0 +1,50 @@
+#PID -1Id 97
+#ErrMsgStr
+A total of 6980 elements and 2133 nodes were created.
+#ErrMsgEnd
+#PID 4808
+#ErrMsgId 391
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrProAddr 2 11000 62 0 -1 
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis Analysis1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - Analysis1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - Analysis1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 3 - Analysis1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 4 - Analysis1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 5 - Analysis1
+#ErrMsgEnd
+#ErrMsgId 545616193
+#ErrMsgStr
+** Warning: Convergence was not obtained because the maximum
+            polynomial order of 6 was reached.
+
+#ErrMsgEnd
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis Analysis1 completed
+#ErrMsgEnd
+#ErrMsgId 92

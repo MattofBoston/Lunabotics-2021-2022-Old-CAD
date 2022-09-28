@@ -1,0 +1,50 @@
+﻿|***************************|
+    REFERENCE INFORMATION    
+|***************************|
+ Reference No.1 out of 1 
+
+Reference:
+   TYPE   : plane
+
+Status   : in geometry (body id -5778)
+
+
+Reference owner:
+ Model   :
+   NAME   : PRT0001 
+   TYPE   : Part
+ Feature :
+
+    FEATURE NUMBER       6
+    INTERNAL FEATURE ID  48
+    PARENTS = 40(#5) 
+    CHILDREN = 76(#7) 121(#8) 163(#9) 368(#10) 502(#12) 627(#13) 837(#14) 
+
+
+ PROTRUSION: Extrude
+
+  NO.     ELEMENT NAME       INFO                                               
+  ---     -------------      -------------                                      
+   1      Feature Name       Defined                                            
+   2      Extrude Feat type  Solid                                              
+   3      Material           Add                                                
+   4      Body               Defined                                            
+   4.1    Use body           Selected                                           
+   4.2    Selected bodies    Body 1                                             
+   5      Section            Defined                                            
+   5.1    Reference Sketch   F5(SKETCH_1)                                       
+   6      Feature Form       Solid                                              
+   7      Direction          Side 2                                             
+   8      Depth              Defined                                            
+   8.1    Side One           Defined                                            
+   8.1.1  Side One Depth     None                                               
+   8.2    Side Two           Defined                                            
+   8.2.1  Side Two Depth     Variable                                           
+   8.2.2  Value              1.00                                               
+
+    SECTION NAME = Sketch 1 
+
+
+    FEATURE'S DIMENSIONS:
+    d2 = (Displayed:) 1.00
+         (   Stored:) 1.0 ( 0.01, -0.01 ) 

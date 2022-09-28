@@ -1,0 +1,56 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-70-46:spg
+Summary for Design Study "StaticAnalysis1"
+Thu Oct 28, 2021   16:39:50
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:           16
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   16
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+The rotational component of a specified constraint will have no effect 
+because the surface to which it is applied is not associated 
+with any shells.   Generate elements automatically.
+
+The design study terminated abnormally.
+Creo Simulate could not generate elements for all of the
+entities in the model.  Use the Info->Diagnostics 
+menu to review detailed messages and problem areas.
+
+To view the model with elements, use the
+File->Copy Mesh from Study... option on the AutoGEM dialog.
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 20.60     
+   Total CPU Time     (seconds): 13.92     
+   Maximum Memory Usage (kilobytes): 566122    
+   Working Directory Disk Usage (kilobytes): 0         
+
+   Results Directory Size (kilobytes):
+   84413 .\StaticAnalysis1
+
+------------------------------------------------------------
+Run Completed with Fatal Error
+Thu Oct 28, 2021   16:40:03
+------------------------------------------------------------
+
+The design study terminated abnormally.
+
+An internal engine error has occurred.  Please be sure
+to run error checking before you run this study.  If
+you have run error checking, then contact Customer Support.

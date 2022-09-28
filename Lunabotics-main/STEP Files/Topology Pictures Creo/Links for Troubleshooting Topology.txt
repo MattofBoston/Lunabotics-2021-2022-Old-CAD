@@ -1,0 +1,6 @@
+Links for Topology Optimization
+https://support.ptc.com/help/creo/creo_pma/r7.0/usascii/index.html#page/generative_design/avoid_recon_failure.html#wwID0EVNHM
+https://support.ptc.com/help/creo/creo_pma/r7.0/usascii/index.html#page/generative_design/generate_design.html
+https://wiya3d.com/generative-design-in-ptc-creo/
+https://www.youtube.com/watch?v=B1QPtVBMLAw
+https://support.ptc.com/help/creo/creo_pma/r7.0/usascii/index.html#page/generative_design/generative_design.html#

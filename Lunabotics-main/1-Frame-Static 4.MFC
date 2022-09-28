@@ -1,0 +1,16 @@
+[StartTime]
+1-Frame-Static 4.MFC=16s
+[SolverState]
+1-Frame-Static 4.MFC=2
+[MainFrame]
+1-Frame-Static 4.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+1-Frame-Static 4.MFC=No
+[SolverType]
+1-Frame-Static 4.MFC=Linear Analysis
+[StudyType]
+1-Frame-Static 4.MFC=0
+[StudyName]
+1-Frame-Static 4.MFC=Static 4
+[Solver]
+1-Frame-Static 4.MFC=Iterative

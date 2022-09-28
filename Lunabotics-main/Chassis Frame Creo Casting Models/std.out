@@ -1,0 +1,6 @@
+ERROR - C:\Program Files\PTC\Creo 7.0.2.0\Common Files\text\config.pro, linenum 1 :  Keyword 'DRAWING_SETUP_FILE' is not valid.
+ERROR - C:\Program Files\PTC\Creo 7.0.2.0\Common Files\text\config.pro, linenum 2 :  Keyword 'FORMAT_SETUP_FILE' is not valid.
+ERROR - C:\Program Files\PTC\Creo 7.0.2.0\Common Files\text\config.pro, linenum 11:  Keyword 'TODAYS_DATE_NOTE_FORMAT' is not valid.
+ERROR - C:\Program Files\PTC\Creo 7.0.2.0\Common Files\text\config.pro, linenum 13:  Keyword 'WELD_UI_STANDARD' is not valid.
+Pro/TOOLKIT registry file C:\Program Files\ANSYS Inc\v211\aisol\CADIntegration\ProE\ProEPages\config\WBPlugInPE.dat: invalid entry "WB211PluginProWF" ending at line 8.
+Pro/TOOLKIT registry file C:\Program Files\ANSYS Inc\v211\aisol\CADIntegration\ProE\ProEPages\config\WBPlugInPE.dat: invalid entry "ac4pro211dll" ending at line 20.

@@ -1,0 +1,128 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-70-46:spg
+Summary for Design Study "TopologyStudy"
+Thu Nov 18, 2021   19:35:02
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:           16
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   16
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+Excluded elements may be required near one or more
+loads due to concentrated stresses.No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: Inch lbm Second (Creo Parametric Default)
+
+   Length:          in
+   Mass:            lbm
+   Time:            sec
+   Temperature:     F
+
+   Model Type: Three Dimensional
+
+   Points:               2133
+   Edges:               10905
+   Faces:               15732
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:               6980
+
+   Elements:             6980
+
+------------------------------------------------------------
+
+Optimization Design Study
+
+Using Gradient Projection Optimization Algorithm
+Thu Nov 18, 2021   19:35:03
+
+Goal
+   Minimize: total_mass  
+
+Limit: 1
+   Analysis: Analysis1
+   Load Set: LoadSet1
+   max_stress_vm <  1.7100e+02
+
+Limit: 2
+   total_mass <  1.0000e+00
+
+Parameter           Min. Value   Initial Value  Max. Value
+PTC_MP_VAL_IMP_COGY           0.3      0.499926           0.5
+
+Optimization Convergence Tolerance: 1         %
+Maximum Number of Optimization Iterations: 20
+
+Begin Analysis of Goal and Limits of             (19:35:03)
+Initial Design
+
+Error updating parameters:
+Cannot perform this operation for this case.
+** Warning: Unable to recover from invalid design point
+            for the following parameter values:
+
+Parameters:
+   PTC_MP_VAL_IMP_COGY      0.499926
+
+No improvement to the initial design was found
+that does not violate any limits.
+
+Error updating parameters:
+Cannot perform this operation for this case.
+** Warning: Unable to recover from invalid design point
+            for the following parameter values:
+
+Parameters:
+   PTC_MP_VAL_IMP_COGY      0.499926
+** Warning: Analysis did not converge during optimization
+            because max polynomial order of 6 was reached.
+
+            Local Disp/Energy Index:     64.6%
+            Global RMS Stress Index:     32.9%
+
+Optimization study statistics:
+Number of Base Analyses: 1
+Number of Perturbation Analyses: 0
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 44.48     
+   Total CPU Time     (seconds): 64.34     
+   Maximum Memory Usage (kilobytes): 929236    
+   Working Directory Disk Usage (kilobytes): 1704964   
+   Total Elapsed Time in Parameter Updates (seconds):
+      9.55      
+   Total Engine Elapsed Time Minus Param. Updates (seconds):
+      34.93     
+   Total CPU Time in Parameter Updates (seconds):
+      0.02      
+   Total Engine CPU Time Minus Param. Updates (seconds):
+      64.33     
+
+   Results Directory Size (kilobytes):
+   113680 .\TopologyStudy
+
+------------------------------------------------------------
+Run Completed
+Thu Nov 18, 2021   19:35:40
+------------------------------------------------------------

@@ -1,0 +1,16 @@
+[StartTime]
+CollectorMountTopFinal-Static 1.MFC=3s
+[SolverState]
+CollectorMountTopFinal-Static 1.MFC=2
+[MainFrame]
+CollectorMountTopFinal-Static 1.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOCAAAAALJBAAAAACJEAAAAAOJCAAAAA
+[ShowMin]
+CollectorMountTopFinal-Static 1.MFC=No
+[SolverType]
+CollectorMountTopFinal-Static 1.MFC=Linear Analysis
+[StudyType]
+CollectorMountTopFinal-Static 1.MFC=0
+[StudyName]
+CollectorMountTopFinal-Static 1.MFC=Static 1
+[Solver]
+CollectorMountTopFinal-Static 1.MFC=Sparse

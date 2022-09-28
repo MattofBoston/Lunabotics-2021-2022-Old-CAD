@@ -1,0 +1,16 @@
+[StartTime]
+ChassisFrame-Torsional Static Study.MFC=4s
+[SolverState]
+ChassisFrame-Torsional Static Study.MFC=2
+[MainFrame]
+ChassisFrame-Torsional Static Study.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+ChassisFrame-Torsional Static Study.MFC=No
+[SolverType]
+ChassisFrame-Torsional Static Study.MFC=Linear Analysis
+[StudyType]
+ChassisFrame-Torsional Static Study.MFC=0
+[StudyName]
+ChassisFrame-Torsional Static Study.MFC=Torsional Static Study
+[Solver]
+ChassisFrame-Torsional Static Study.MFC=Iterative
